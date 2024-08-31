@@ -3,15 +3,22 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+<<<<<<< HEAD
 import store from './components/store';
 import { Provider } from 'react-redux';
+=======
+>>>>>>> 29e71c4 (initial commit)
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+<<<<<<< HEAD
     <Provider store={store}>
       <App />
     </Provider>
+=======
+    <App />
+>>>>>>> 29e71c4 (initial commit)
   </React.StrictMode>
 );
 
